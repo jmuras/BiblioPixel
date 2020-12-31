@@ -57,7 +57,7 @@ class MovieWriter:
 
         if self.time:
             elapsed = self.times[-1] - self.times[0]
-            self.finished = (elapsed >= self.time)
+            self.finished = (elapsed >= self.time())
         else:
             self.finished = (self.frame >= self.frames)
 
