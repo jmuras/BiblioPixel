@@ -5,12 +5,12 @@ from .. import exception, log
 
 DEFAULT_RENDER = {
     'color': COLORS.Black,
-    'pixel_width': 12,
-    'pixel_height': None,
+    'pixel_width': 1,
+    'pixel_height': 1,
     'ellipse': True,
     'vertical': False,
-    'frame': 2,
-    'padding': 2,
+    'frame': 0,
+    'padding': 0,
 }
 
 
